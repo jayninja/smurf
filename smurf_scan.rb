@@ -1,4 +1,4 @@
-# ruby_scan.rb by James J
+# smurf_scan.rb by James J
 #
 # When you exit, hit ctrl+c one time, and it will dump all of the broadcasts found. The best method is to just let it 
 # finish, and then check bcast.list

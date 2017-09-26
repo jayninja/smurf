@@ -1,6 +1,4 @@
-# Originally I didnt implement this using the ping command. Unfortunately 3 ruby libraries later
-# I realized I was going to have to reimplement one to search for duplicates. Then I decided im not 
-# doing that. So here it is lame or not, with ping.
+# ruby_scan.rb by James J
 #
 # When you exit, hit ctrl+c one time, and it will dump all of the broadcasts found. The best method is to just let it 
 # finish, and then check bcast.list

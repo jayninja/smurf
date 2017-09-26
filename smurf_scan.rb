@@ -9,8 +9,6 @@
 #  - Figure out how to prevent the dump of text after ctrl+c
 #  - flag to specify log file? 
 
-
-require 'net/ping'
 require 'in_threads'
 require 'getoptlong'
 require 'colorize'
@@ -18,7 +16,7 @@ require 'colorize'
 logfile = 'bcast.list'
 targets = []
 num_threads = 500
-@dupes = []  #oh shut up it makes it easier than passing it to eac.
+@dupes = []  #oh shut up it makes it easier than passing it to each thread.
 
 def print_dupes(dupes)
   dupes.each do |dupe|
